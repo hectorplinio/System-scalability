@@ -45,18 +45,27 @@ _Such architecture distributes the processing modules more intelligently, which 
 _These are the tech stack options to explore while designing scalable web applications:_
 
 - Node.js
-This technology is considered to be the best for scalable and asynchronous programming to date.
-
-It can handle multiple requests at a time without any disruptions and failures. This outstanding Javascript framework eliminates waiting while providing a single-threaded, non-blocking, asynchronous programming, which is very memory efficient.
-
-Also, it provides numerous packages with useful features optimising the work even more. You can learn more about this framework at its official web page.
+_This technology is considered to be the best for scalable and asynchronous programming to date. It can handle multiple requests at a time without any disruptions and failures. This outstanding Javascript framework eliminates waiting while providing a single-threaded, non-blocking, asynchronous programming, which is very memory efficient. Also, it provides numerous packages with useful features optimising the work even more. You can learn more about this framework at its official web page._
 
 - Django
-This high-level and extra fast Python web framework supports the clean and pragmatic design of the applications which contributes to the scalability as well — see a detailed list of its advantages.
-
-Continuous development from the concept to launch seems favourable for every startup, while reliable security helps to avoid many serious mistakes.
+_This high-level and extra fast Python web framework supports the clean and pragmatic design of the applications which contributes to the scalability as well — see a detailed list of its advantages. Continuous development from the concept to launch seems favourable for every startup, while reliable security helps to avoid many serious mistakes._
 
 - Ruby on Rails
-RoR is familiar to everybody who uses Shopify, Airbnb, ZenDesk, GitHub, and many other popular platforms. It is known as the framework allowing to build a web application 30% faster than others while providing the same quality.
+_RoR is familiar to everybody who uses Shopify, Airbnb, ZenDesk, GitHub, and many other popular platforms. It is known as the framework allowing to build a web application 30% faster than others while providing the same quality._
 
-However, if compared to Node.js, it has less capacity to run many complex asynchronous queries at a time.
+## Scalable web app principles
+
+- Smooth performance
+_In addition to availability, the application should have high performance. Otherwise, you risk getting an adverse reaction from customers and reducing the position of the website in search results — Google indexes such sites worse. Thus, a web application with low performance is unlikely to be able to deter a serious audience._
+
+- Continuous availability
+_For companies, it is vital that their web application is available all the time. Every minute it becomes inaccessible causes significant damage to the company’s profits and reputation. For SaaS and cloud solutions, it’s crucial to ensure interrupted lifelong access to services. Therefore, it is necessary that a scalable website be accessible at any time of the day and from any place where your user can apply for the service._
+
+- Fast data retrieval
+_Working with data usually involves many performance problems. The fact is that third-party technologies are usually used for storing and accessing data, and their integration is an intractable task. At the junction of the main app part and database services, you can often find bottlenecks. Your responsibility is to avoid this problem in your project._
+
+- Malfunction traceability
+_The system has to be easy to operate, maintain, and update. Besides, all the problems that may arise already at the stage of product functioning should be easily traced and corrected. Good results are achieved by proper structuring and segmenting the application into relatively isolated parts._
+
+- Real-time response
+_Of course, the speed of your online application is important. It concerns not only the data retrieval on the storage or overall performance but also the speed of operations and response. No matter how useful your application is, you only have a few seconds to meet the customer’s needs._
